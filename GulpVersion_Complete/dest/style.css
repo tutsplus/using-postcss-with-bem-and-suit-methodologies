@@ -1,0 +1,56 @@
+/* SUIT method */
+
+.u-clearFix {/* If supporting IE 6/7 */
+
+    zoom: 1;
+}
+
+.u-clearFix:before, .u-clearFix:after {
+
+    content: "";
+
+    display: table;
+}
+
+.u-clearFix:after {
+
+    clear: both;
+}
+
+.mine-SearchForm-textField {
+
+    border: 1px solid #ccc;
+}
+
+.mine-SearchForm-textField.is-invalid {
+
+    border: 1px solid red;
+}
+
+.mine-SearchForm {
+
+    padding: 0;
+
+    margin: 0;
+}
+
+.mine-SearchForm--advanced {
+
+    padding: 1rem;
+}
+
+/* BEM method */
+.mine-search-form-text-field {
+
+    border: 1px solid #ccc;
+}
+.mine-search-form {
+
+    padding: 0;
+
+    margin: 0;
+}
+.mine-search-form--advanced {
+
+    padding: 1rem;
+}
